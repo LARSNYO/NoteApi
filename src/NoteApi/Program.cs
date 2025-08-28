@@ -20,7 +20,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddOpenApiDocument(config =>
 {
     config.DocumentName = "NoteAPI";
-    config.Title = "TodoAPI v1";
+    config.Title = "NoteAPI v1";
     config.Version = "v1";
 });
 
